@@ -1,0 +1,17 @@
+form{
+    background-color: var(--form_background);
+    label{
+        color: var(--link_color);
+        font-size: 12px;
+    }
+    input{
+        background-color: var(--input_background);
+    }
+    .submit-btn{
+        cursor: pointer;
+        font-size: 14px;
+        padding: 10px 15px;
+        background-color: var(--button_background);
+        color: var(--link_color);
+    }
+}

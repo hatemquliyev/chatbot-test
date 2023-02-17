@@ -1,0 +1,21 @@
+.light_theme{
+  --background_color: white;
+  --link_color: black;
+  --button_background: blue;
+  --form_background: rgb(247, 210, 143);
+  --input_background: yellow;
+}
+.dark_theme{
+  --background_color: #232323;
+  --link_color: white;
+  --button_background: red;
+  --form_background: rgb(255, 166, 0);
+  --input_background: rgb(174, 174, 248);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition:all 0.3s linear;
+}

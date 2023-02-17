@@ -1,0 +1,9 @@
+ul{
+    display: flex;
+    list-style: none;
+    li{
+        color: var(--link_color);
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
