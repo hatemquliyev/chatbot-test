@@ -1,0 +1,23 @@
+<svg width="344" height="358" viewBox="0 0 344 358" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4" filter="url(#filter0_f_52_95)">
+<rect opacity="0.3" x="43.001" y="43.793" width="257.348" height="271.165" rx="50" fill="#202020"/>
+<path d="M142.731 129.572H114.756V263.362H142.731V129.572Z" fill="white"/>
+<path d="M188.935 129.572H160.959V263.362H188.935V129.572Z" fill="white"/>
+<path d="M228.352 129.572H200.376V159.917H228.352V129.572Z" fill="white"/>
+<path d="M228.352 172.33H200.376V202.675H228.352V172.33Z" fill="white"/>
+<path d="M228.352 268.422C240.056 268.422 249.544 258.13 249.544 245.435C249.544 232.741 240.056 222.449 228.352 222.449C216.648 222.449 207.16 232.741 207.16 245.435C207.16 258.13 216.648 268.422 228.352 268.422Z" fill="white"/>
+</g>
+<rect x="43.001" y="43.793" width="257.348" height="257.348" fill="white"/>
+<path d="M136.891 95.7715H103.275V243.985H136.891V95.7715Z" fill="#202020"/>
+<path d="M192.409 95.7715H158.793V243.985H192.409V95.7715Z" fill="#202020"/>
+<path d="M239.776 95.7715H206.16V129.387H239.776V95.7715Z" fill="#202020"/>
+<path d="M239.776 143.139H206.16V176.754H239.776V143.139Z" fill="#202020"/>
+<path d="M239.776 249.591C253.839 249.591 265.24 238.19 265.24 224.126C265.24 210.063 253.839 198.662 239.776 198.662C225.712 198.662 214.312 210.063 214.312 224.126C214.312 238.19 225.712 249.591 239.776 249.591Z" fill="#202020"/>
+<defs>
+<filter id="filter0_f_52_95" x="0.000976562" y="0.792969" width="343.348" height="357.166" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="21.5" result="effect1_foregroundBlur_52_95"/>
+</filter>
+</defs>
+</svg>
