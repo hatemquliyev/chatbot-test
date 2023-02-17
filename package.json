@@ -1,16 +1,20 @@
 {
+  "homepage": "https://ifocorporation.com/chatbot-test",
   "name": "dark",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tanstack/react-location": "^3.7.4",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-location": "^3.3.4",
