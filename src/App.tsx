@@ -7,6 +7,8 @@ import './App.css'
 import { Router, ReactLocation, Route, Outlet } from 'react-location';
 import Admin from './components/Admin/Admin';
 import FindMode from './components/FindMode/FindMode';
+import Welcome from './components/Welcome-effect/Welcome';
+
 
 const reactLocation = new ReactLocation()
 
@@ -50,8 +52,10 @@ function App() {
   const [theme] = useRecoilState(themeAtom);
   
   return (
-      <div className={`App d-flex justify-content-center align-items-center ${theme === "dark_theme" ? "light_theme" : "light_theme"}`}>
-        <h1 className={`mb-5 text-center ${theme === "dark_theme" ? "text-dark" : "text-dark"}`}>IFO Corporation Chat Bot Testing</h1>
+      <div className={`App d-flex align-items-center justify-content-center ${theme === "dark_theme" ? "light_theme" : "light_theme"}`}>
+        <Welcome/>
+        <Header/>
+        
         {/* <Router location={reactLocation} routes={routes}>
           <Outlet/>
         </Router>

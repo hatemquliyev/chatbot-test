@@ -7,18 +7,18 @@ import { useRecoilState } from 'recoil'
 const Header = () => {
     const [theme] = useRecoilState(themeAtom)
     return (
-        <>
-        <div className="logo">
-            {theme === "dark_theme" ? <img src={Icon1} alt="" /> : <img src={Icon2} alt="" />}
-        </div>
-        <ul>
+        <div className='container'>
+            <div >
+                <h1 className={`text-center ${theme === "dark_theme" ? "text-dark" : "text-dark"}`}>IFO Corporation Introduction Page Test</h1>
+            </div>
+        {/* <ul>
             <li>Home</li>
             <li>About</li>
             <li>FAQ</li>
             <li>Contact</li>
             <li>Policy</li>
-        </ul>
-        </>
+        </ul> */}
+        </div>
 
     );
   }
